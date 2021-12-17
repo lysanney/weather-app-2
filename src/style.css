@@ -1,0 +1,49 @@
+.weather-app {
+  color: #fff;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid rgba(241, 239, 239, 0.521);
+  border-radius: 10px;
+  background-image: url(https://c1.wallpaperflare.com/preview/998/702/367/clouds-cumulus-cumulus-clouds-summer-day.jpg);
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+.col {
+  margin-top: 50px;
+}
+
+#temp {
+  margin-top: 10px;
+}
+
+#emoji {
+  margin-top: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+small {
+  color: black;
+  position: relative;
+  left: -180px;
+  top: 60px;
+}
