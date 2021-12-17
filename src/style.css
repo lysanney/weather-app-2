@@ -17,14 +17,21 @@ h2 {
   font-size: 15px;
 }
 
-h3 {
+strong {
   font-size: 40px;
 }
 
-h4 {
+#units {
   font-size: 15px;
+  position: relative;
+  bottom: 17px;
+  font-weight: 600;
 }
 
+#description {
+  font-size: 15px;
+  text-transform: capitalize;
+}
 .col {
   margin-top: 50px;
 }
@@ -46,4 +53,8 @@ small {
   position: relative;
   left: -180px;
   top: 60px;
+}
+
+a {
+  text-decoration: none;
 }
