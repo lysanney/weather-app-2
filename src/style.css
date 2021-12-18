@@ -11,14 +11,17 @@
 h1 {
   font-size: 45px;
   margin-top: 20px;
+  margin-left: 25px;
 }
 
-h2 {
+#date {
   font-size: 15px;
+  margin-left: 25px;
 }
 
 strong {
-  font-size: 40px;
+  font-size: 50px;
+  margin-left: 25px;
 }
 
 #units {
@@ -28,14 +31,25 @@ strong {
   font-weight: 600;
 }
 
+#weather-image {
+  margin: 0 auto;
+}
+
 #description {
   font-size: 15px;
   text-transform: capitalize;
+  margin-top: 10px;
+  margin-left: 25px;
 }
 .col {
-  margin-top: 50px;
+  text-align: center;
 }
 
+img {
+  position: relative;
+  left: 180px;
+  bottom: 10px;
+}
 #temp {
   margin-top: 10px;
 }
@@ -44,17 +58,22 @@ strong {
   margin-top: 10px;
 }
 
-.container {
-  text-align: center;
-}
-
 small {
   color: black;
   position: relative;
-  left: -180px;
+  left: -20px;
   top: 60px;
 }
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 19px;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
 }

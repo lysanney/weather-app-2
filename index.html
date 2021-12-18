@@ -15,15 +15,34 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather app 4.0</title>
   </head>
+
   <body>
     <div class="container">
       <div class="weather-app">
-        <h1 id="city"></h1>
-        <h2 id="date">Date and time - Sunday 21:07</h2>
-        <strong id="temperature"></strong>
-        <span id="units">°C | <a href="#">°F</a></span>
-        <div id="description"></div>
-        <p></p>
+        <div class="row">
+          <div class="col-6">
+            <h1 id="city"></h1>
+            <h2 id="date">Date and time - Sunday 21:07</h2>
+            <div id="description"></div>
+
+            <strong id="temperature"></strong>
+            <span id="units">°C | <a href="#">°F</a></span>
+
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/164/164806.png"
+              width="50px"
+              height="50px"
+              alt="Cloudy icon"
+            />
+          </div>
+        </div>
+
+        <ul>
+          <li>Humidity: <span id="humidity"></span>%</li>
+          <li>Wind: <span id="wind"></span> km/h</li>
+          <li>Precipitation: <span id="precipitation"></span> %</li>
+        </ul>
+
         <div class="row">
           <div class="col">Friday</div>
           <div class="col">Saturday</div>
