@@ -37,9 +37,12 @@ strong {
 
 #description {
   font-size: 15px;
-  text-transform: capitalize;
   margin-top: 10px;
   margin-left: 25px;
+}
+
+#description:first-letter {
+  text-transform: capitalize;
 }
 .col {
   text-align: center;
