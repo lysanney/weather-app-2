@@ -48,6 +48,14 @@ strong {
   text-align: center;
 }
 
+.col-8 {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.col-3 {
+  margin-top: 20px;
+}
 img {
   position: relative;
   left: 180px;
