@@ -115,6 +115,21 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+function changeBackground(hours) {
+  if (hours > 7 && hours < 17) {
+    background =
+      "url(https://images.unsplash.com/photo-1517758478390-c89333af4642?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80)";
+  } else {
+    background =
+      "url(https://www.wallpaperflare.com/static/286/671/831/moon-night-clouds-stars-wallpaper.jpg)";
+  }
+
+  return background;
+}
+
+let background = document.querySelector(".weather-app");
+background.style.background = changeBackground(new Date().getHours());
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
